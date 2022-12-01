@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -adm
+ls -la -d -m | grep "^d" && ls -la -d -m | grep "^-"
