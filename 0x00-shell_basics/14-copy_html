@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find . -name "*.html" -exec cp -u {} ..
+cp -u ./\*.html ../\*.html
