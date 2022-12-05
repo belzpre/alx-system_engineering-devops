@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(find . -not -empty)
+find . -not -empty -ls 2>/dev/null
